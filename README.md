@@ -13,16 +13,23 @@ Funcionamiento:
 Importaciones: El programa importa las bibliotecas necesarias para su funcionamiento:
 
 threading: Para crear y administrar hilos de ejecución.
+
 time: Para controlar el tiempo y la frecuencia de la acción.
+
 pyautogui: Para simular la interacción con el teclado y el mouse.
+
 keyboard: Para detectar la presión de teclas.
+
 
 
 Variables de configuración:
 
 frecuencia: Define el tiempo en segundos entre cada acción de rodar la pantalla.
+
 tecla_escape: Define la tecla que se debe presionar para detener el programa.
+
 combo_rodar: Define la combinación de teclas que se utiliza para rodar la pantalla.
+
 
 
 Tiempo de espera inicial:
@@ -41,14 +48,15 @@ Comprueba la variable detener_hilo para determinar si debe detenerse.
 Creación e inicio del hilo:
 
 Se crea un objeto threading.Thread con la función rodar() como objetivo.
+
 Se inicia el hilo con el método start().
 
 
 Bucle principal:
 
-Este bucle se ejecuta en el hilo principal.
-Comprueba si la tecla tecla_escape está presionada.
-Si la tecla no está presionada, espera 0.1 segundos antes de volver a comprobar.
+Este bucle se ejecuta en el hilo principal. Comprueba si la tecla tecla_escape
+es presionada. Si la tecla no es presionada, espera 0.1 segundos antes de volver
+a comprobar para no sobrecargar procesos.
 
 
 Detener el hilo:
