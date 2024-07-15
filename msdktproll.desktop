@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=mdsktproll
+GenericName=Micro Desktop Roll
+Comment=Micro Desktop Scroll
+Exec="/home/alan/mds.sh"
+Terminal=true
+Icon=/home/alan/Visual Studio Python/microdesktoproll/mdsktproll.png
+Type=Application
+StartupNotify=false
+Path=
+Name[en_US]=mdsktproll
