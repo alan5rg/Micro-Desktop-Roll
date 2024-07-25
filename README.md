@@ -6,6 +6,8 @@ para que funcione correctamente. Esto se debe a que el programa
 utiliza métodos que requieren interacción a bajo nivel con el
 sistema operativo.
 
+Puede utilizar la gui runasadmin de este repositorio
+
 -------------------------------------------------------------------
 
 Funcionamiento:
